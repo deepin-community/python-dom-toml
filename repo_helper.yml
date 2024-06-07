@@ -1,0 +1,55 @@
+# Configuration for 'repo_helper' (https://github.com/domdfcoding/repo_helper)
+---
+modname: dom_toml
+copyright_years: "2021"
+author: "Dominic Davis-Foster"
+email: "dominic@davis-foster.co.uk"
+version: "2.0.0"
+username: "domdfcoding"
+license: 'MIT'
+short_desc: "Dom's tools for Tom's Obvious, Minimal Language."
+
+min_coverage: 98.5
+sphinx_html_theme: furo
+standalone_contrib_guide: true
+use_flit: true
+docs_fail_on_warning: true
+
+# Versions to run tests for
+python_versions:
+ - '3.6'
+ - '3.7'
+ - '3.8'
+ - '3.9'
+ - "3.10"
+ - "3.11"
+ - "3.12"
+ - 3.13-dev
+ - pypy36
+ - pypy37
+ - pypy38
+ - pypy39
+
+classifiers:
+ - 'Development Status :: 4 - Beta'
+ - 'Intended Audience :: Developers'
+ - 'Topic :: Software Development :: Libraries :: Python Modules'
+
+conda_channels:
+ - conda-forge
+
+keywords:
+ - toml
+ - serialize
+ - configuration
+
+sphinx_conf_epilogue:
+  - autodoc_show_sourcelink = True
+  - nitpicky = True
+  - needspace_amount = r"3\baselineskip"
+#  - source_link_target = "github"
+
+extra_sphinx_extensions:
+ - sphinx_toolbox.more_autosummary.column_widths
+
+pre_commit_exclude: "^tests/tests_for_tomliw/data/.*$"

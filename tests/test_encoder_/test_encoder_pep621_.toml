@@ -1,0 +1,11 @@
+[project]
+name = "greppy"
+version = "0.0.0"
+description = "Recursively grep over Python files in the files in the given directory 🔎"
+readme = "README.rst"
+keywords = []
+authors = [ { email = "dominic@davis-foster.co.uk", name = "Dominic Davis-Foster" },]
+dynamic = [ "requires-python", "classifiers", "dependencies",]
+
+[project.license]
+file = "LICENSE"
