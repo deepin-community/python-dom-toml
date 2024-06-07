@@ -1,0 +1,12 @@
+classifiers:
+- 'Development Status :: 4 - Beta'
+- 'Programming Language :: Python'
+dependencies: []
+description: null
+entry_points: {}
+gui_scripts: {}
+keywords: []
+name: spam
+optional-dependencies: {}
+scripts: {}
+urls: {}

@@ -1,0 +1,2 @@
+domdf-python-tools>=2.8.0
+tomli>=1.2.3

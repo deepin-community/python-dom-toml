@@ -1,0 +1,4 @@
+classifiers:
+- 'Development Status :: 4 - Beta'
+- 'Programming Language :: Python'
+name: spam
